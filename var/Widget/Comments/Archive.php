@@ -421,7 +421,7 @@ class Widget_Comments_Archive extends Widget_Abstract_Comments
             'beforeDate'    =>  '',
             'afterDate'     =>  '',
             'dateFormat'    =>  $this->options->commentDateFormat,
-            'replyWord'     =>  _t('回复'),
+            'replyWord'     =>  '<button type="button" id="reply-button" class="btn btn-danger btn-xs mdi-content-reply reply-button"><div class="ripple-wrapper"></div></button>',
             'commentStatus' =>  _t('您的评论正等待审核！'),
             'avatarSize'    =>  32,
             'defaultAvatar' =>  NULL
